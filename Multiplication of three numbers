@@ -1,0 +1,4 @@
+# Multiplication of three numbers
+a, b, c = map(int, input("Enter three numbers separated by space: ").split())
+# split()) : is use to space between two strings
+print(f"Your ans is  = {a*b*c}")
