@@ -8,7 +8,7 @@ array = [
 name = input("Enter Doctor name = ").strip().lower()  # Normalize input by stripping extra spaces and converting to 
 # Iterate over the list to find a match
 for doctor in array:
-    if name == "dr.":
+    if name == "dr." or name == "dr" or name =="d" or name == "dr.".upper() or name =="dr".upper() or name =="d".upper():
         for i in range(len(array)):
             print(f"{doctor['Name']}")
             break
