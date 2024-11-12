@@ -1,0 +1,5 @@
+# Subtraction of two strings
+a = input("Enter string =") # string
+b = int(input("Enter a number =")) # int
+ans = int(a)
+print(f"Your ans is  = {ans -b}") 
