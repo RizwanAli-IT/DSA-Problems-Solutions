@@ -1,0 +1,16 @@
+
+array = [1, -10, 54, 882, 6,1,2,5,8,9,-7,9,9,15,5,56,56.27]
+
+if len(array) > 1:
+    # Divide the array into two halves
+    devide_array = len(array) // 2
+    left_array = array[:devide_array]   # Left half
+    right_array = array[devide_array:]  # Right half
+    
+    # Sort the left array
+    left_array.sort()
+    right_array.sort()
+    result = left_array + right_array
+    print("Sorted Left Array:", left_array)
+    print("Right Array:", right_array)
+    print("Final Combined Array:", result)
